@@ -1,4 +1,10 @@
+-- Poster_Link,Series_Title,Released_Year,Certificate,Runtime,Genre,IMDB_Rating,
+--Overview,Meta_score,Director,Star1,Star2,Star3,Star4,No_of_Votes,Gross
+
 -- Question 1: List all movie titles released in 2010
+SELECT *
+FROM movies
+WHERE released_year = 2010;
 
 -- Question 2: Find the birth year of Emma Stone
 
