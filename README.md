@@ -70,7 +70,8 @@ Here are some examples of the questions answered by the queries:
 -- List all movie titles released in 2010
 SELECT *
 FROM movies
-WHERE released_year = 2010;
+WHERE Released_Year = 2010;
+```
 
 ## 🛠 Areas for Improvement
 
