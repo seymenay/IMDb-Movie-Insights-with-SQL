@@ -1,0 +1,160 @@
+1)
+                                    Series_Title Released_Year Certificate  ...                     Star4 No_of_Votes        Gross
+0                                      Inception          2010          UA  ...              Ken Watanabe     2067042  292,576,195
+1                                      Incendies          2010           R  ...             Mustafa Kamel      150023    6,857,096
+2                                          Udaan          2010          UA  ...                Ram Kapoor       42341        7,461
+3                                 Shutter Island          2010           A  ...              Ben Kingsley     1129894  128,012,934
+4                                    Toy Story 3          2010           U  ...                Ned Beatty      757032  415,004,880
+5                       How to Train Your Dragon          2010           U  ...  Christopher Mintz-Plasse      666773  217,581,231
+6      Tropa de Elite 2: O Inimigo Agora é Outro          2010        None  ...             Milhem Cortaz       79200      100,119
+7                              The King's Speech          2010           U  ...              Derek Jacobi      639603  138,797,449
+8                                My Name Is Khan          2010          UA  ...            Katie A. Keane       98575    4,018,695
+9                                     Black Swan          2010           A  ...              Winona Ryder      699673  106,954,678
+10                                      Kokuhaku          2010        None  ...             Yukito Nishii       35713         None
+11                          Ang-ma-reul bo-at-da          2010        None  ...               Ho-jin Chun      111252      128,392
+12                                       Ajeossi          2010           R  ...               Hee-won Kim       62848        6,460
+13                                   The Fighter          2010          UA  ...               Melissa Leo      340584   93,617,009
+14                            The Social Network          2010          UA  ...               Rooney Mara      624982   96,962,694
+15  Harry Potter and the Deathly Hallows: Part 1          2010           A  ...                Bill Nighy      479120  295,983,305
+16                                       Flipped          2010          PG  ...           Anthony Edwards       81446    1,752,214
+17                                       Tangled          2010           U  ...              Donna Murphy      405922  200,821,936
+18                       Kari-gurashi no Arietti          2010           U  ...          Tatsuya Fujiwara       80939   19,202,743
+19                                     True Grit          2010       PG-13  ...          Hailee Steinfeld      311822  171,243,005
+20                                        Hævnen          2010           R  ...               Wil Johnson       38491    1,008,098
+21                                 Despicable Me          2010           U  ...             Russell Brand      500851  251,513,985
+22                                      Kick-Ass          2010          UA  ...          Garrett M. Brown      524081   48,071,303
+
+[23 rows x 15 columns]
+
+2)
+                Series_Title
+0                       1917
+1             A Star Is Born
+2                  Ah-ga-ssi
+3                    Airlift
+4                  Andhadhun
+..                       ...
+94  Uri: The Surgical Strike
+95              Vikram Vedha
+96                Wind River
+97                    Wonder
+98                  Zootopia
+
+[99 rows x 1 columns]
+
+3)
+   COUNT(*)
+0         0
+
+4)
+                                   Series_Title Released_Year
+0  Harry Potter and the Deathly Hallows: Part 2          2011
+1      Harry Potter and the Prisoner of Azkaban          2004
+2  Harry Potter and the Deathly Hallows: Part 1          2010
+3           Harry Potter and the Goblet of Fire          2005
+4        Harry Potter and the Half-Blood Prince          2009
+5         Harry Potter and the Sorcerer's Stone          2001
+
+5)
+   Avg_Rating_in_2012
+0            7.941667
+
+6)
+                                    Series_Title  IMDB_Rating
+0                                      Inception          8.8
+1                                      Incendies          8.3
+2                                 Shutter Island          8.2
+3                                    Toy Story 3          8.2
+4                                          Udaan          8.2
+5                       How to Train Your Dragon          8.1
+6                                     Black Swan          8.0
+7                                My Name Is Khan          8.0
+8                              The King's Speech          8.0
+9      Tropa de Elite 2: O Inimigo Agora é Outro          8.0
+10                                       Ajeossi          7.8
+11                          Ang-ma-reul bo-at-da          7.8
+12                                      Kokuhaku          7.8
+13                                   The Fighter          7.8
+14                                       Flipped          7.7
+15  Harry Potter and the Deathly Hallows: Part 1          7.7
+16                                       Tangled          7.7
+17                            The Social Network          7.7
+18                                 Despicable Me          7.6
+19                                        Hævnen          7.6
+20                       Kari-gurashi no Arietti          7.6
+21                                      Kick-Ass          7.6
+22                                     True Grit          7.6
+
+7)
+       Star1      Star2        Star3       Star4
+0  Tom Hanks  Tim Allen  Don Rickles  Jim Varney
+
+8)
+               Director
+0        Frank Darabont
+1  Francis Ford Coppola
+2     Christopher Nolan
+3          Sidney Lumet
+
+9)
+          Series_Title  IMDB_Rating
+0         Forrest Gump          8.8
+1  Saving Private Ryan          8.6
+2       The Green Mile          8.6
+3            Toy Story          8.3
+4          Toy Story 3          8.2
+
+10)
+              Series_Title
+0  Silver Linings Playbook
+
+11)
+            ACTOR  ACTOR_COUNT
+0  Robert De Niro        4
+
+12)
+  Released_Year  Movie_Count
+0          2014           32
+
+13)
+                          Genre  Avg_Rating
+0         Animation, Drama, War        8.50
+1                Drama, Musical        8.40
+2                Action, Sci-Fi        8.40
+3           Drama, Mystery, War        8.35
+4                       Western        8.35
+..                          ...         ...
+197      Adventure, Comedy, War        7.60
+198      Action, Crime, Mystery        7.60
+199  Action, Adventure, Mystery        7.60
+200   Action, Adventure, Family        7.60
+201    Action, Adventure, Crime        7.60
+
+[202 rows x 2 columns]
+
+14)
+Empty DataFrame
+Columns: [Series_Title, IMDB_Rating]
+Index: []
+
+15)
+  Series_Title    Gross
+0     Rockstar  985,912
+
+16)
+            Series_Title Gross
+0               Hamilton  None
+1        Soorarai Pottru  None
+2                Seppuku  None
+3  It's a Wonderful Life  None
+4         Hotaru no haka  None
+
+17)
+               Series_Title  No_of_Votes
+0  The Shawshank Redemption      2343110
+
+18)
+    Series_Title  Meta_score
+0  The Godfather       100.0
+
+

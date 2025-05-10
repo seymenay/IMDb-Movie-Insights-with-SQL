@@ -15,7 +15,7 @@ def read_csv_to_sqlite():
 def query_movies():
     try:
         conn = sqlite3.connect('movies.db')
-        query = 'SELECT * FROM movies WHERE IMDB_Rating > 8.0 LIMIT 10'
+        query = ""
         df = pd.read_sql_query(query, conn)
         conn.close()
         print("Query executed successfully.")
@@ -30,7 +30,6 @@ def main():
     result_df = query_movies()
     # Print the result
     if result_df is not None:
-        print(result_df.columns)
         print(result_df)
 
 if __name__ == "__main__":
