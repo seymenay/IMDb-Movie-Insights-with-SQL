@@ -1,17 +1,17 @@
-# 🎬 IMDb SQL Project – Learning SQL with Real-World Movie Data
+# IMDb SQL Project – Learning SQL with Real-World Movie Data
 
 This project consists of SQL queries written to explore and analyze a movie database inspired by IMDb. It's designed as a **learning tool** to practice SQL using real-world data challenges and answer common questions related to movie data analysis.
 
 All queries are written in a **single SQL file** and clearly separated by comments indicating the question they answer.
 
-## 🎯 Skills Practiced
+##  Skills Practiced
 
 - **Filtering data** using `WHERE` and `LIKE`
 - **Aggregating data** with `GROUP BY`, `COUNT`, `AVG`, and `DISTINCT`
 - **Sorting and limiting results** using `ORDER BY` and `LIMIT`
 - Working with **NULL** values and handling missing data
 
-## 💡 Sample Questions Covered
+##  Sample Questions Covered
 
 Here are some of the questions you can expect to answer with the queries in this project:
 
@@ -23,19 +23,19 @@ Here are some of the questions you can expect to answer with the queries in this
 6. What is the average movie rating by genre?
 7. Which movies have the highest gross earnings?
 
-## 📁 File Structure
+## File Structure
 
 - **`imdb_movies.sql`**: Contains all the SQL queries for analyzing the movie database.
 - **`main.py`**: The main Python script to run and interact with the database.
 - **`results.txt`**: This file contains the results of the queries, showing outputs such as movie titles, ratings, and other key statistics.
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **SQL**: For querying and manipulating data in the IMDb movie database.
 - **SQLite**: For storing and querying the movie data.
 - **Python**: Used in `main.py` to connect to the database and handle query executions.
 
-## 🚀 Running the Project
+## Running the Project
 
 To run this project, follow these steps:
 
@@ -51,7 +51,7 @@ To run this project, follow these steps:
 4. **Saving Results**:
    - The results of the queries are saved manually into the `results.txt` file. While this can be automated, the current version requires manual saving of each result after query execution.
 
-## 📝 Query List Example
+## Query List Example
 
 Here are some examples of the questions answered by the queries:
 
@@ -64,7 +64,7 @@ Here are some examples of the questions answered by the queries:
 7. **Directors of movies rated 9.0 and above**
 8. **Movies starring both Bradley Cooper and Jennifer Lawrence**
 
-### 🔍 Example SQL Query
+### Example SQL Query
 
 ```sql
 -- List all movie titles released in 2010
@@ -73,7 +73,7 @@ FROM movies
 WHERE Released_Year = 2010;
 ```
 
-## 🛠 Areas for Improvement
+##  Areas for Improvement
 
 This project currently involves manual steps (loading CSV into SQLite and manually saving results). However, these processes can be automated for greater efficiency. Here are a few suggestions for automating these steps:
 
@@ -91,6 +91,6 @@ This project currently involves manual steps (loading CSV into SQLite and manual
 
 By implementing these improvements, you can make the project more efficient and reduce the need for manual steps.
 
-## 🤝 Contributions
+## Contributions
 Feel free to contribute to this project by submitting pull requests, reporting issues, or suggesting improvements. This project is intended to be a learning resource, so contributions are welcome!
 
